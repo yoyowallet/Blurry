@@ -42,7 +42,7 @@ afterEvaluate { project ->
                 repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
                     authentication(userName: getRepositoryUsername(), password: getRepositoryPassword())
                 }
-                snapshotRepository(url: SNAPSHOT_REPOSIORY_URL) {
+                snapshotRepository(url: SNAPSHOT_REPOSITORY_URL) {
                     authentication(userName: getRepositoryUsername(), password: getRepositoryPassword())
                 }
 
