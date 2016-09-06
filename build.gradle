@@ -18,3 +18,4 @@ allprojects {
         jcenter()
     }
 }
+apply from: file('gradle/gradle-mvn-push.gradle')
